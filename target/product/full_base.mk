@@ -26,12 +26,11 @@ PRODUCT_PACKAGES := \
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker 
 
-
 # Additional settings used in all AOSP builds
 PRODUCT_PROPERTY_OVERRIDES := \
     ro.config.ringtone=Titania.ogg \
     ro.config.notification_sound=Tethys.ogg \
-    ro.config.alarm_alert=Oxygen.ogg
+    ro.config.alarm_alert=Osmium.ogg
 
 # Put en_US first in the list, so make it default.
 PRODUCT_LOCALES := en_US
