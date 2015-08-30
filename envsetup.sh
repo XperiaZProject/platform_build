@@ -541,8 +541,6 @@ function lunch()
 
     echo
 
-    set_stuff_for_environment
-
     if [[ $USE_PREBUILT_CHROMIUM -eq 1 ]]; then
         chromium_prebuilt
     else
@@ -550,6 +548,7 @@ function lunch()
         export PRODUCT_PREBUILT_WEBVIEWCHROMIUM=""
     fi
 
+    set_stuff_for_environment
     printconfig
 }
 
