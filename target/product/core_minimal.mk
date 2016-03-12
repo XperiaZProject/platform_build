@@ -23,7 +23,6 @@ PRODUCT_DEVICE := generic
 PRODUCT_NAME := core
 
 PRODUCT_PACKAGES += \
-    BackupRestoreConfirmation \
     DownloadProvider \
     HTMLViewer \
     MediaProvider \
@@ -59,7 +58,6 @@ PRODUCT_PACKAGES += \
     libdrmframework_jni \
     libfilterfw \
     libkeystore \
-    libsqlite_jni \
     libwilhelm \
     logd \
     make_ext4fs \
@@ -90,7 +88,6 @@ PRODUCT_BOOT_JARS := \
     telephony-common \
     voip-common \
     ims-common \
-    mms-common \
     android.policy \
     apache-xml \
 
